@@ -4,11 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function($) {
-  "use strict";
-
+$(document).ready(function(){
+  (function($) {
+    "use strict";
+    
   var nav = $('nav');
   var navHeight = nav.outerHeight();
+  console.log(navHeight)
 
   $('.navbar-toggler').on('click', function() {
     if (!$('#mainNav').hasClass('navbar-reduce')) {
@@ -39,14 +41,14 @@
     }, 1500, 'easeInOutExpo');
     return false;
   });
-
+  
   /*--/ Star ScrollTop /--*/
   $('.scrolltop-mf').on("click", function() {
     $('html, body').animate({
       scrollTop: 0
     }, 1000);
   });
-
+  
   /*--/ Star Counter /--*/
   $('.counter').counterUp({
     delay: 15,
@@ -84,14 +86,14 @@
   $('.js-scroll').on("click", function() {
     $('.navbar-collapse').collapse('hide');
   });
-
+  
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: navHeight
   });
   /*--/ End Scrolling nav /--*/
-
+  
   /*--/ Navbar Menu Reduce /--*/
   $(window).trigger('scroll');
   $(window).on('scroll', function() {
@@ -112,9 +114,10 @@
       $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
     }
   });
-
+  
   /*--/ Star Typed /--*/
   if ($('.text-slider').length == 1) {
+    console.log("typed JS initialized!")
     var typed_strings = $('.text-slider-items').text();
     var typed = new Typed('.text-slider', {
       strings: typed_strings.split(','),
@@ -145,12 +148,13 @@
     loop: true,
     items: 1
   });
-
+  
   // Initiate venobox (lightbox feature used in portofilo)
   $(document).ready(function() {
     $('.venobox').venobox({
       'share': false
     });
   });
-
+  
 })(jQuery);
+})

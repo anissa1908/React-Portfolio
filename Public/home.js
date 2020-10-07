@@ -1388,7 +1388,7 @@ return (
     <>
     <body id="page-top">
 
-<!-- ======= Header/ Navbar ======= -->
+{/* <!-- ======= Header/ Navbar ======= --> */}
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand js-scroll" href="#page-top">Portfolio</a>
@@ -1422,7 +1422,7 @@ return (
   </div>
 </nav>
 
-<!-- ======= Intro Section ======= -->
+{/* <!-- ======= Intro Section ======= --> */}
 <div id="home" class="intro route bg-image" style="background-image: url(assets/img/Anissa\ pic\ 4.jpg)">
   <div class="overlay-itro"></div>
   <div class="intro-content display-table">
@@ -1439,7 +1439,7 @@ return (
 
 <main id="main">
 
-  <!-- ======= About Section ======= -->
+  {/* <!-- ======= About Section ======= --> */}
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
       <div class="row">
@@ -1514,7 +1514,7 @@ return (
     </div>
   </section><!-- End About Section -->
 
-  <!-- ======= Services Section ======= -->
+  {/* <!-- ======= Services Section ======= --> */}
   <section id="service" class="services-mf pt-5 route">
     <div class="container">
       <div class="row">
@@ -1622,7 +1622,7 @@ return (
     </div>
   <!-- </section>End Services Section --> 
 
-  <!-- ======= Counter Section ======= -->
+  {/* <!-- ======= Counter Section ======= --> */}
   <div class="section-counter paralax-mf bg-image" style="background-image: url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6391/6391844cv18d.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
@@ -1675,7 +1675,7 @@ return (
     </div>
   </div><!-- End Counter Section -->
 
-  <!-- ======= Portfolio Section ======= -->
+  {/* <!-- ======= Portfolio Section ======= --> */}
   <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
       <div class="row">
@@ -1845,7 +1845,7 @@ return (
     </div>
   </section><!-- End Portfolio Section -->
 
-  <!-- ======= Testimonials Section ======= -->
+  {/* <!-- ======= Testimonials Section ======= --> */}
   <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
@@ -1886,11 +1886,11 @@ return (
         </div>
       </div>
     </div>
-  </div><!-- End Testimonials Section -->
+  {/* </div><!-- End Testimonials Section --> */}
 
-  <!-- ======= Blog Section ======= -->
+  {/* <!-- ======= Blog Section ======= --> */}
 
-  <!-- Entering Bootstrap Carousel with additional images-->
+  {/* <!-- Entering Bootstrap Carousel with additional images--> */}
 
 <section>
     <div class="container">
@@ -2019,7 +2019,7 @@ return (
     </div> 
   </section>
 
-  <!-- ======= Contact Section ======= -->
+  {/* <!-- ======= Contact Section ======= --> */}
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
@@ -2106,7 +2106,7 @@ return (
 
 </main><!-- End #main -->
 
-<!-- ======= Footer ======= -->
+{/* <!-- ======= Footer ======= --> */}
 <footer>
   <div class="container">
     <div class="row">
@@ -2151,5 +2151,10 @@ return (
 )
 
 </>
+
+    )
+
 }
     
+
+export default HomePage;
