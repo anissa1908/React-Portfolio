@@ -1,6 +1,6 @@
 # User story
 
-My portfolio was originally built with Bootstrap, HTML, CSS, Javascript and jQuery, but for this assignment, I converted the portfolio to use components and converted to React.
+My portfolio was originally built with Bootstrap, HTML, CSS, Javascript and jQuery, but for this assignment, I converted the portfolio to use components and converted to React.js.
 
 # Technologies Used:
 HTML
