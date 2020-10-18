@@ -8,7 +8,7 @@ CSS
 REACT
 Javascript
 jQuery
-PHP - files delted so it could deploy to Heroku properly
+PHP - files deleted so it could deploy to Heroku properly
 
 
 # Heroku deployed link
